@@ -122,7 +122,7 @@ ul {
   padding: 200px 0;
   width: 100%;
   color: var(--colorWhite);
-  background-image: url('./images/background.jpg');
+  background-image: url('./images/headerphoto.jpg');
   background-color: var(--backgroundColorSecondary);
 }
 
