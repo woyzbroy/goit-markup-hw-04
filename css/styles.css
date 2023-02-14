@@ -114,16 +114,17 @@ ul {
 }
 
 .top-section {
+  padding: 200px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding: 200px 0;
   width: 100%;
   color: var(--colorWhite);
-  background-image: url(../images/headerphoto.jpg);
   background-color: var(--backgroundColorSecondary);
+  background-image: url(../images/headerphoto.jpg);
+  background-repeat: no-repeat;
 }
 
 .main-heading {
