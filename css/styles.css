@@ -125,6 +125,7 @@ ul {
   background-color: var(--backgroundColorSecondary);
   background-image: url(../images/headerphoto.jpg);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .main-heading {
