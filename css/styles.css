@@ -168,7 +168,6 @@ ul {
   display: flex;
   gap: 30px;
   margin-bottom: 30px;
-  justify-content: center;
 }
 .icon-logo {
   background-color: var(--portfolioButton);
