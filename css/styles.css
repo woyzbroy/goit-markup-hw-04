@@ -162,6 +162,17 @@ ul {
 .section {
   padding: 94px 0;
 }
+
+.icon-top {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.icon-logo {
+  background-color: var(--portfolioButton);
+  padding: 25px 102px;
+}
 .first-paragraph-section {
   list-style: none;
   display: flex;
