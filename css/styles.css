@@ -43,7 +43,6 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 215px;
   padding: 24px 0 25px 0;
   border-bottom: 1px solid var(--backgroundBorderBottom);
 }
@@ -317,8 +316,8 @@ ul {
   background-color: var(--backgroundColorSecondary);
   padding: 60px 0;
 }
-.footer-box {
-  margin-left: 215px;
+.footer-address {
+  /* margin-right: 70px; */
 }
 .address-box {
   margin: 20px 0 0 0;
