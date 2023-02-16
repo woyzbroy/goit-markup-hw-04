@@ -22,7 +22,12 @@ body {
 img {
   display: block;
 }
-ul {
+ul,
+p,
+h1,
+h2,
+h3,
+h4 {
   padding: 0;
   margin: 0;
 }
@@ -400,7 +405,7 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--socialsColor);
-  margin: 20px 24px 4px 24px;
+  margin-bottom: 4px;
 }
 .image-paragraph {
   font-family: 'Roboto';
@@ -409,7 +414,6 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--fontColorSecondary);
-  margin: 0px 24px 20px 24px;
 }
 .portfolio-buttons {
   display: flex;
@@ -426,7 +430,6 @@ ul {
 }
 .product-card {
   background: var(--colorWhite);
-  border-bottom: 1px solid var(--backgroundProductCard);
 }
 .product-card:hover,
 .product-card:focus {
@@ -437,4 +440,10 @@ ul {
 }
 .product-card a {
   text-decoration: none;
+}
+.cards-border {
+  padding: 20px 24px;
+  border-left: 1px solid var(--backgroundProductCard);
+  border-right: 1px solid var(--backgroundProductCard);
+  border-bottom: 1px solid var(--backgroundProductCard);
 }
