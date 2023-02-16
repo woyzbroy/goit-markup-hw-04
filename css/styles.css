@@ -35,6 +35,8 @@ ul {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header {
@@ -177,8 +179,12 @@ ul {
   margin-bottom: 30px;
 }
 .icon-logo {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
   background-color: var(--portfolioButton);
-  padding: 25px 104px;
 }
 .first-paragraph-section {
   list-style: none;
