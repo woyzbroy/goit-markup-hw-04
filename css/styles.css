@@ -10,6 +10,7 @@
   --portfolioButton: #f5f4fa;
   --backgroundBorderBottom: #ececec;
   --backgroundProductCard: #eeeeee;
+  --socialIcon: #afb1b8;
 }
 body {
   background-color: var(--backgroundColorMain);
@@ -260,7 +261,28 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--fontColorSecondary);
-  margin: 0 0 30px 0;
+  margin: 0 0 16px 0;
+}
+.icon-social-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.icon-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  fill: var(--socialIcon);
+}
+.icon-social-link:hover,
+.icon-social-link:focus {
+  background-color: var(--selectionColor);
+  fill: var(--colorWhite);
+  border-radius: 50%;
 }
 
 .footer-background {
