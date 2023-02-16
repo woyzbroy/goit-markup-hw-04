@@ -316,8 +316,9 @@ ul {
   background-color: var(--backgroundColorSecondary);
   padding: 60px 0;
 }
-.footer-address {
-  /* margin-right: 70px; */
+.footer-flex {
+  display: flex;
+  gap: 70px;
 }
 .address-box {
   margin: 20px 0 0 0;
@@ -350,6 +351,20 @@ ul {
 }
 .underline {
   text-decoration: underline;
+}
+.footer-icon-heading {
+  margin: 12px 0 20px 0;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--colorWhite);
+  letter-spacing: 0.03em;
+}
+.footer-list {
+  list-style: none;
+  display: flex;
 }
 
 .portfolio-button {
