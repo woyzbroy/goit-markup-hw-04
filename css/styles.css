@@ -307,6 +307,11 @@ ul {
   align-items: center;
   fill: var(--socialIcon);
 }
+.icon-clients-link:hover,
+.icon-clients-link:focus {
+  fill: var(--selectionColor);
+  border-color: var(--selectionColor);
+}
 
 .footer-background {
   background-color: var(--backgroundColorSecondary);
