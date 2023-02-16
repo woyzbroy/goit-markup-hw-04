@@ -129,7 +129,8 @@ ul {
   width: 100%;
   color: var(--colorWhite);
   background-color: var(--backgroundColorSecondary);
-  background-image: url(../images/headerphoto.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/headerphoto.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -174,7 +175,6 @@ ul {
   display: flex;
   gap: 30px;
   margin-bottom: 30px;
-  justify-content: space-between;
 }
 .icon-logo {
   background-color: var(--portfolioButton);
@@ -284,6 +284,22 @@ ul {
   background-color: var(--selectionColor);
   fill: var(--colorWhite);
   border-radius: 50%;
+}
+.clients-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.icon-clients-link {
+  display: flex;
+  border: 1px solid var(--socialIcon);
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
+  fill: var(--socialIcon);
 }
 
 .footer-background {
