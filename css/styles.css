@@ -420,11 +420,10 @@ ul {
 .products-box {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 28px;
   flex-wrap: wrap;
 }
 .product-card {
-  height: 404px;
   background: var(--colorWhite);
   border-bottom: 1px solid var(--backgroundProductCard);
   flex-basis: calc((100% - 60px) / 3);
