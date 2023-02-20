@@ -45,10 +45,14 @@ h4 {
 }
 
 .header {
+  border-bottom: 1px solid var(--backgroundBorderBottom);
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.header .container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-bottom: 1px solid var(--backgroundBorderBottom);
 }
 
 .web-studio {
