@@ -13,7 +13,7 @@
   --socialIcon: #afb1b8;
 }
 body {
-  background-color: var(--backgroundColorMain);
+  background-color: var(--colorWhite);
   font-family: 'Roboto', sans-serif;
   color: var(--socialsColor);
   margin: 0;
@@ -131,6 +131,7 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
   gap: 30px;
   max-width: 1600px;
   color: var(--colorWhite);
@@ -320,6 +321,8 @@ h4 {
 .footer-background {
   background-color: var(--backgroundColorSecondary);
   padding: 60px 0;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .footer-flex {
   display: flex;
