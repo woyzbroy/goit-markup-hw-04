@@ -48,7 +48,6 @@ h4 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 24px 0 25px 0;
   border-bottom: 1px solid var(--backgroundBorderBottom);
 }
 
@@ -81,16 +80,11 @@ h4 {
 .social-links .link:focus {
   color: var(--selectionColor);
 }
-.social-links .current-link {
-  font-family: 'Roboto';
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+.current-link {
   color: var(--selectionColor);
 }
 .social-links .link {
+  display: block;
   font-family: 'Roboto';
   font-size: 14px;
   font-weight: 500;
@@ -98,6 +92,7 @@ h4 {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--socialsColor);
+  padding: 32px 0;
 }
 
 .contact-list {
@@ -163,6 +158,7 @@ h4 {
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border-style: none;
   background-color: var(--selectionColor);
   color: var(--colorWhite);
   text-align: center;
@@ -234,8 +230,10 @@ h4 {
   padding-top: 0;
 }
 
-.grey-backgorund {
+.grey-background {
   background-color: var(--portfolioButton);
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .secondary-heading-list {
   display: flex;
