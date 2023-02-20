@@ -172,7 +172,7 @@ h4 {
 }
 .main-button:hover,
 .main-button:focus {
-  background-color: var(--colorWhite);
+  background-color: var(--portfolioButton);
   color: var(--fontColorMain);
 }
 
