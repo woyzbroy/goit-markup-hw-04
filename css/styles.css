@@ -107,6 +107,8 @@ h4 {
   fill: var(--selectionColor);
 }
 .contact-list .contact-link {
+  display: flex;
+  align-items: center;
   font-family: 'Roboto';
   font-size: 14px;
   font-weight: 500;
@@ -114,10 +116,11 @@ h4 {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--fontColorSecondary);
+  padding: 32px 0;
 }
 
 .contact-icon {
-  margin-right: 4px;
+  margin-right: 10px;
 }
 
 .top-heading {
